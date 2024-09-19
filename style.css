@@ -85,14 +85,15 @@ button {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    gap: 50px
+    gap: 50px;
+    padding-bottom: 50px;
 }
 
 .item-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 75px;
+    gap: 50px;
 }
 
 .item {
@@ -116,4 +117,37 @@ button {
     border-style: solid;
     border-width: 3px;
     border-radius: 15px;
+}
+
+/* Quote section */
+/* TODO: Fix bug with author positioning */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    /* gap: 25px; */
+}
+
+#quote {
+    color: #1f2937;
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+    flex-wrap: wrap;
+    padding: 50px 225px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: -50px -50px; */
+    
+
 }
