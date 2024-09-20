@@ -23,7 +23,7 @@ h1 {
 }
 
 a,
-.hero.text {
+.text {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -148,6 +148,7 @@ button {
     justify-content: space-around;
     align-items: center;
     /* margin: -50px -50px; */
-    
-
 }
+
+/* CTA section */
+
