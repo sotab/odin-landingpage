@@ -44,7 +44,7 @@ button {
     margin-top: 10px;
 }
 
-/* Main section */
+/* Header section */
 
 .header {
     background-color: #1F2937;
@@ -152,3 +152,39 @@ button {
 
 /* CTA section */
 
+.cta-card{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    display: flex;
+    padding: 25px 75px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    
+}
+
+#card-header {
+    font-size: 20px;
+}
+
+.cta-container .text{
+    font-size: 12px;
+}
+
+#card-btn{
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 30px;
+}
